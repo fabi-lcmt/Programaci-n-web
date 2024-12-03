@@ -1,0 +1,79 @@
+body{
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 80%, rgba(2,0,36,1) 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+main{
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+
+.seccion1{
+    background-color: rgba(255,255,255,0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px; 
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover{
+   cursor: pointer; 
+}
+
+.seccion2{
+    background-color: rgba(255,255,255,0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 705px;
+    padding:  0 20px;
+}
+
+.estadistica{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 80%;
+}
+
+/* Estilo para la sección de reinicio */
+.seccion3 {
+    text-align: center;
+    margin-top: 20px; /* Margen superior para separación */
+}
+
+/* Estilo para el botón de reinicio */
+.seccion3 button {
+    
+    background-color: rgba(255,255,255,0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
